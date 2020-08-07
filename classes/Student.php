@@ -55,7 +55,7 @@ class student
            VALUES('$firstName', '$lastName', '$studentId', '$email', '$phone', '$area', '$uploaded_image','$dep')";
             $inserted_rows = $this->db->insert($query);
             if ($inserted_rows) {
-                header("location:studentList.php");
+                header("location:index.php");
             }
         }
     }
@@ -128,7 +128,7 @@ INNER JOIN department ON student.dep = department.id where student.is_deleted=0;
 
                     $updated_rows = $this->db->update($query);
                     if ($updated_rows) {
-                        header("location:studentList.php");
+                        header("location:index.php");
                     }
                 }
             } else {
@@ -145,7 +145,7 @@ INNER JOIN department ON student.dep = department.id where student.is_deleted=0;
 
                 $updated_rows = $this->db->update($query);
                 if ($updated_rows) {
-                    header("location:studentList.php");
+                    header("location:index.php");
                 }
 
 
@@ -172,7 +172,7 @@ INNER JOIN department ON student.dep = department.id where student.is_deleted=0;
         $query = "delete from student where id ='$id'";
         $result = $this->db->delete($query);
         if ($result) {
-            header("location:studentList.php");
+            header("location:index.php");
         }
     }
     public function trushStudentData($id,$_is_deleted){
@@ -183,7 +183,7 @@ INNER JOIN department ON student.dep = department.id where student.is_deleted=0;
         $query = "UPDATE student SET is_deleted = '$_is_deleted' WHERE id = '$id'";
         $updated_rows = $this->db->update($query);
         if ($updated_rows) {
-            header("location:studentList.php");
+            header("location:index.php");
         }
     }
     public function trushStudent(){
@@ -200,7 +200,7 @@ INNER JOIN department ON student.dep = department.id where student.is_deleted=0;
         $query = "UPDATE student SET is_deleted = '$_is_deleted' WHERE id = '$id'";
         $updated_rows = $this->db->update($query);
         if ($updated_rows) {
-            header("location:studentList.php");
+            header("location:index.php");
         }
     }
 

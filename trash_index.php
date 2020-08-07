@@ -6,12 +6,6 @@ $db=new Database();
 $st = new Student();
 
 ?>
-<?php
-
-$query ="SELECT * FROM `student` where is_deleted = 1";
-
-?>
-
 <div class="row">
     <div class="col-md-12">
         <div class="card-body text-center">
