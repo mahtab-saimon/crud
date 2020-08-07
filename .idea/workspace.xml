@@ -20,20 +20,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Anik Sir/gg/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="63" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="17">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -66,8 +57,8 @@
         <option value="$PROJECT_DIR$/helpers/Format.php" />
         <option value="$PROJECT_DIR$/inc/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/inc/footer.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/inc/footer.php" />
       </list>
     </option>
   </component>
@@ -103,11 +94,6 @@
               <item name="crud" type="b2602c69:ProjectViewProjectNode" />
               <item name="crud" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,12 +139,12 @@
       <workItem from="1596788404113" duration="8173000" />
       <workItem from="1596796775578" duration="2885000" />
       <workItem from="1596817821229" duration="7175000" />
-      <workItem from="1596825408347" duration="304000" />
+      <workItem from="1596825408347" duration="977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25996000" />
+    <option name="totallyTimeSpent" value="26669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -334,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
