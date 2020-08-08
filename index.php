@@ -44,11 +44,12 @@ $st = new Student();
                                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myBtn">
                                         Delete
                                     </button>
-                                    <a href="trash.php?id=<?=$result['id']; ?>" class="btn btn-outline-dark" onclick="return confirm('Are you sure you want to trash?')">Trash</a>
+                                    <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myBtn2">
+                                        Trash
+                                    </button>
                                 </td>
                             </tr>
                                 <!-- Modal -->
-
                                 <div class="modal fade" id="myBtn">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
@@ -62,6 +63,23 @@ $st = new Student();
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                                 <a href="delete.php?del=<?=$result['id'];?>" class="btn btn-outline-dark">Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myBtn2">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Confirmation</h5>
+                                                <button class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Are you sure to Trash It!
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <a href="trash.php?id=<?=$result['id']; ?>" class="btn btn-outline-dark">Trash</a>
                                             </div>
                                         </div>
                                     </div>

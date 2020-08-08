@@ -12,6 +12,5 @@ if (isset($_REQUEST['id'])){
     $id = $_REQUEST['id'];
     $trushStudentData = $st->restoreStudentData($_id,$_is_deleted);
 }
-
-header("location:studentList.php");
+header("location:index.php");
 ?>

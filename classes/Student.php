@@ -18,7 +18,6 @@ class student
         $this->fm = new Format();
 
     }
-
     public function studentInsert($data, $file)
     {
         $firstName = $this->fm->validation($data['firstName']);
@@ -61,9 +60,13 @@ class student
     }
     public function getAllStudent()
     {
-        $query = "SELECT student.*, department.dep
-FROM student
-INNER JOIN department ON student.dep = department.id where student.is_deleted=0;";
+        $query = "SELECT student.*, department.dep FROM student 
+            INNER JOIN 
+            department
+                ON 
+            student.dep = department.id
+                 where
+            student.is_deleted=0;";
         $result = $this->db->select($query);
         return $result;
     }
